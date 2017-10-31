@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  git:
+    image: plocek/git
+    volumes:
+      - ./:/git-workdir
+#    command: git status
